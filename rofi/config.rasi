@@ -1,0 +1,54 @@
+configuration {
+show-icons: true;
+}
+
+@import "gruvbox_rofi.rasi"
+
+rofi.drun{
+	hide-scrollbar: false;
+}
+window{
+    background-color: @background;
+    border: 2;
+    padding: 5;
+}
+listview{
+    background-color: @background;
+    lines: 9;
+    collumns: 1;
+}
+
+entry{
+	placeholder: "Procurar";
+}
+
+element {
+	orientation: horizontal;
+	children: [ element-text, element-icon ];
+}
+
+
+
+
+element-icon{
+	size: 2em;
+}
+
+element-text{
+    font:  "JetBrainsMono Nerd Font 12";  
+	vertical-align: 0.5;
+}
+
+scrollbar {
+    width:        4px ;
+    border:       0;
+    handle-color: #3c3836;
+    handle-width: 3px ;
+    padding:      10;
+}
+element.selected.normal{
+    background-color: @selected-active-background;
+    text-color:       @background;
+}
+
+

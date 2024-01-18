@@ -1,0 +1,23 @@
+2024-01-17 02:19:05.298 [info] Started initializing default profile extensions in extensions installation folder. file:///home/tiagomneves/.vscode-oss/extensions
+2024-01-17 02:19:05.558 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/tiagomneves/.vscode-oss/extensions
+2024-01-17 02:19:18.195 [info] Getting Manifest... jdinhlife.gruvbox
+2024-01-17 02:19:18.336 [info] Installing extension: jdinhlife.gruvbox
+2024-01-17 02:19:19.366 [info] Extension signature verification is not done: jdinhlife.gruvbox
+2024-01-17 02:19:19.428 [info] Extracted extension to file:///home/tiagomneves/.vscode-oss/extensions/jdinhlife.gruvbox-1.18.0-universal: jdinhlife.gruvbox
+2024-01-17 02:19:19.461 [info] Renamed to /home/tiagomneves/.vscode-oss/extensions/jdinhlife.gruvbox-1.18.0-universal
+2024-01-17 02:19:19.463 [info] Extracting extension completed. jdinhlife.gruvbox
+2024-01-17 02:19:19.493 [info] Extension installed successfully: jdinhlife.gruvbox
+2024-01-17 02:19:19.549 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/tiagomneves/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/tiagomneves/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:35852)
+    at a (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:35986)
+    at s.toFileSystemProviderError (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:47852)
+    at s.stat (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:38447)
+    at async C.stat (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:20932)
+    at async Y.onDidFilesChange (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:100:138138)
+2024-01-17 02:19:31.677 [info] Getting Manifest... oderwat.indent-rainbow
+2024-01-17 02:19:31.801 [info] Installing extension: oderwat.indent-rainbow
+2024-01-17 02:19:33.404 [info] Extension signature verification is not done: oderwat.indent-rainbow
+2024-01-17 02:19:33.993 [info] Extracted extension to file:///home/tiagomneves/.vscode-oss/extensions/oderwat.indent-rainbow-8.3.1-universal: oderwat.indent-rainbow
+2024-01-17 02:19:34.062 [info] Renamed to /home/tiagomneves/.vscode-oss/extensions/oderwat.indent-rainbow-8.3.1-universal
+2024-01-17 02:19:34.063 [info] Extracting extension completed. oderwat.indent-rainbow
+2024-01-17 02:19:34.435 [info] Extension installed successfully: oderwat.indent-rainbow

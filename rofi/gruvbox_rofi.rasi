@@ -1,0 +1,41 @@
+* {
+    /* Theme settings */
+    highlight: bold italic;
+    scrollbar: true;
+
+    /* Gruvbox light colors */
+    gruvbox-rofi-bg0:          #fbf1c7;
+    gruvbox-rofi-bg0-soft:     #f2e5bc;
+    gruvbox-rofi-bg2:          #d5c4a1;
+    gruvbox-rofi-fg0:          #282828;
+    gruvbox-rofi-fg1:          #3c3836;
+    gruvbox-rofi-gray:         #7c6f64;
+    gruvbox-rofi-red-dark:     #9d0006;
+    gruvbox-rofi-red-light:    #cc241d;
+    gruvbox-rofi-yellow-dark:  #b57614;
+    gruvbox-rofi-yellow-light: #d79921;
+    gruvbox-rofi-green:        #98971a;
+
+    /* Theme colors */
+    background:                  @gruvbox-rofi-bg0;
+    foreground:                  @gruvbox-rofi-fg1;
+    border-color:                @gruvbox-rofi-gray;
+    separatorcolor:              @border-color;
+    scrollbar-handle:            @border-color;
+
+    normal-background:           @background;
+    normal-foreground:           @foreground;
+    alternate-normal-background: @gruvbox-rofi-bg0-soft;
+    alternate-normal-foreground: @foreground;
+    selected-normal-background:  @gruvbox-rofi-bg2;
+    selected-normal-foreground:  @gruvbox-rofi-fg0;
+
+    active-background:           @gruvbox-rofi-yellow-dark;
+    active-foreground:           @background;
+    alternate-active-background: @active-background;
+    alternate-active-foreground: @active-foreground;
+    selected-active-background:  @gruvbox-rofi-green;
+    selected-active-foreground:  @active-foreground;
+
+    urgent-background:           @gruvbox-rofi-red-dark;
+}

@@ -1,0 +1,33 @@
+2024-01-18 19:03:43.159 [info] Log level: Info
+2024-01-18 19:03:43.159 [info] Validating found git in: "git"
+2024-01-18 19:03:43.159 [info] Using git "2.43.0" from "git"
+2024-01-18 19:03:56.217 [info] Log level: Info
+2024-01-18 19:03:56.217 [info] Validating found git in: "git"
+2024-01-18 19:03:56.217 [info] Using git "2.43.0" from "git"
+2024-01-18 19:03:56.217 [info] > git rev-parse --show-toplevel [6ms]
+2024-01-18 19:03:56.217 [info] > git rev-parse --path-format=relative --show-toplevel [2ms]
+2024-01-18 19:03:56.223 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-01-18 19:03:56.235 [info] Open repository: /home/tiagomneves/Projectos/AwayPlanner
+2024-01-18 19:03:56.249 [info] > git rev-parse --show-toplevel [2ms]
+2024-01-18 19:03:56.255 [info] > git config --get commit.template [13ms]
+2024-01-18 19:03:56.257 [info] > git rev-parse --path-format=relative --show-toplevel [2ms]
+2024-01-18 19:03:56.267 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2024-01-18 19:03:56.275 [info] > git rev-parse --show-toplevel [8ms]
+2024-01-18 19:03:56.280 [info] > git status -z -uall [6ms]
+2024-01-18 19:03:56.288 [info] > git rev-parse --path-format=relative --show-toplevel [9ms]
+2024-01-18 19:03:56.294 [info] > git rev-parse --show-toplevel [2ms]
+2024-01-18 19:03:56.299 [info] > git config --get commit.template [12ms]
+2024-01-18 19:03:56.340 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [35ms]
+2024-01-18 19:03:56.345 [info] > git rev-parse --path-format=relative --show-toplevel [47ms]
+2024-01-18 19:03:56.353 [info] > git status -z -uall [7ms]
+2024-01-18 19:03:56.353 [info] > git rev-parse --show-toplevel [2ms]
+2024-01-18 19:03:56.361 [info] > git rev-parse --path-format=relative --show-toplevel [3ms]
+2024-01-18 19:03:56.767 [info] > git check-ignore -v -z --stdin [2ms]
+2024-01-18 19:04:01.162 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master [2ms]
+2024-01-18 19:04:01.173 [info] > git config --local branch.master.vscode-merge-base [1ms]
+2024-01-18 19:04:01.334 [info] > git reflog refs/heads/master --grep-reflog=branch: Created from *. [153ms]
+2024-01-18 19:04:01.350 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [8ms]
+2024-01-18 19:04:01.350 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-01-18 19:06:52.483 [info] > git config --get commit.template [5ms]
+2024-01-18 19:06:52.483 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-01-18 19:06:52.489 [info] > git status -z -uall [2ms]
