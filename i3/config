@@ -31,20 +31,20 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ to
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
 
 #Esquema de cores Gruvbox
-set_from_resource $gb_black i3wm.gb_black 	#282828
-set_from_resource $gb_white i3wm.gb_white 	#A89984
-set_from_resource $gb_red i3wm.gb_red 		#CC241D
-set_from_resource $gb_green i3wm.gb_green 	#98971A
-set_from_resource $gb_yellow i3wm.gb_yellow 	#D79921
-set_from_resource $gb_blue i3wm.gb_blue 	#458588
-set_from_resource $gb_magenta i3wm.gb_magenta 	#B16286
-set_from_resource $gb_cyan i3wm.gb_cyan 	#689D6A
+set_from_resource $gb_black     i3wm.gb_black 	    #282828
+set_from_resource $gb_white     i3wm.gb_white 	    #A89984
+set_from_resource $gb_red       i3wm.gb_red		    #CC241D
+set_from_resource $gb_green     i3wm.gb_green 	    #98971A
+set_from_resource $gb_yellow    i3wm.gb_yellow	    #D79921
+set_from_resource $gb_blue      i3wm.gb_blue 	    #458588
+set_from_resource $gb_magenta   i3wm.gb_magenta     #B16286
+set_from_resource $gb_cyan      i3wm.gb_cyan 	    #689D6A
 # use these keys for focus, movement, and resize directions when reaching for
 # the arrows is not convenient
-set $up l
-set $down k
-set $left j
-set $right semicolon
+set $up k
+set $down j
+set $left h
+set $right l
 
 # use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -82,11 +82,8 @@ bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
-# split in horizontal orientation
-bindsym $mod+h split h
-
-# split in vertical orientation
-bindsym $mod+v split v
+# alterar a orientação da próxima janela
+bindsym $mod+o split toggle
 
 # enter fullscreen mode for the focused container
 bindsym $mod+f fullscreen toggle
@@ -121,7 +118,7 @@ client.focused_inactive #333333 #5f676a #ffffff #484e50   #5f676a
 client.unfocused        $gb_cyan $gb_black $gb_white $gb_red $gb_black 
 client.urgent           $gb_red $gb_red $gb_white $gb_red   $gb_red
 client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
-client.background	$bg_black
+client.background	$gb_black
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
