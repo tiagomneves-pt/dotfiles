@@ -1,7 +1,6 @@
 * {
     /* Theme settings */
     highlight: bold italic;
-    scrollbar: true;
 
     /* Gruvbox light colors */
     gruvbox-rofi-bg0:          #fbf1c7;
